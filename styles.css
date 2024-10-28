@@ -49,6 +49,7 @@ body {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   color: var(--second-color);
+  background-color: #f8e5ee;
 }
 
 h1, h2, p {
@@ -107,13 +108,14 @@ img {
 }
 
 .l-header {
-  width: 100%;
+  width: 90%;
   position: fixed;
   top: 0;
-  left: 0;
+  left: 5%;
   z-index: var(--z-fixed);
-  background-color: #fff;
-  box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
+  background-color: #F5EFF2;
+  border: thick double #211103;
+  box-shadow: 10px 5px 5px #7b0d1e;
 }
 
 /*===== NAV =====*/
@@ -188,12 +190,16 @@ img {
 }
 
 /*===== HOME =====*/
+
 .home {
   position: relative;
   row-gap: 5rem;
-  padding: 4rem 0 5rem;
+  padding: 4rem 0 5rem8;
+  background-color:#f8e5ee;
 }
-
+#home{
+  margin-top: 120px;
+}
 .home__data {
   align-self: center;
 }
@@ -348,6 +354,10 @@ img {
   box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
   border-radius: .5rem;
   overflow: hidden;
+  object-fit: fill;
+  height: 172px;
+  width: fit-content;
+  padding: 0px;
 }
 
 .work__img img {
@@ -358,6 +368,12 @@ img {
   transform: scale(1.1);
 }
 
+#resume{
+  border-width: 4px;
+  box-shadow:10px 5px 5px #7b0d1e ;
+  margin-top: 24px;
+  margin-left: 700px;
+}
 /* ===== CONTACT =====*/
 .contact__input {
   width: 100%;
@@ -527,4 +543,10 @@ img {
   .home__img {
     width: 450px;
   }
+}
+.home__title{
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
 }
