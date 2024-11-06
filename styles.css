@@ -354,6 +354,10 @@ img {
   box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
   border-radius: .5rem;
   overflow: hidden;
+  object-fit: fill;
+  height: 172px;
+  width: fit-content;
+  padding: 0px;
 }
 
 .work__img img {
